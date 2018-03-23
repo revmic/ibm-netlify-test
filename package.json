@@ -1,0 +1,30 @@
+{
+  "name": "ibm-test",
+  "version": "1.0.0",
+  "description": "Testing IBM Cloud Services",
+  "productName": "IBM Test",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "Michael Hileman <mhilema@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build --mode spa"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "netlify-identity-widget": "^1.4.11"
+  },
+  "devDependencies": {
+    "quasar-cli": "^0.15.12"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
