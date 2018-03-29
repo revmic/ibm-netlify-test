@@ -11,8 +11,8 @@ module.exports = function (ctx) {
       'app.styl'
     ],
     extras: [
-      ctx.theme.mat ? 'roboto-font' : null
-      // 'material-icons'
+      ctx.theme.mat ? 'roboto-font' : null,
+      'material-icons'
       // 'ionicons',
       // 'mdi',
       // 'fontawesome'
@@ -47,8 +47,14 @@ module.exports = function (ctx) {
         'QToolbarTitle',
         'QBtn',
         'QInput',
+        'QField',
+        'QList',
+        'QItem',
+        'QUploader',
         'QCard',
-        'QField'
+        'QCardSeparator',
+        'QSpinner',
+        'QSpinnerPie'
       ],
       directives: [
         'Ripple'
